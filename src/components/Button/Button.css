@@ -1,0 +1,24 @@
+.button {
+  font-size: 18px;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: 2px solid green;
+  background: wheat;
+  text-transform: uppercase;
+
+  margin-right: 8px;
+
+  transition: 0.25s;
+
+  opacity: 0.5;
+}
+
+.button:hover {
+  background: lightblue;
+}
+
+.button.active {
+  opacity: 1;
+
+  /* pointer-events: none; */
+}
