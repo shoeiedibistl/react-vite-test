@@ -105,3 +105,8 @@ li {
 strong {
   color: brown;
 }
+
+ul,
+ol {
+  list-style: none;
+}

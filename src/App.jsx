@@ -5,7 +5,11 @@ import Button from "./components/Button/Button";
 
 export default function App() {
   function myClick() {
-    console.log("click");
+    console.log("dostupnost'");
+  }
+
+  function handleClick() {
+    console.log("concentracia");
   }
 
   return (
@@ -31,9 +35,9 @@ export default function App() {
         <section>
           <h3>чем мы отличаемся от других</h3>
 
-          <Button onClick={() => console.log("hi")}>подход</Button>
-          <Button onClick={myClick}>доступность</Button>
-          <Button onClick={myClick}>концентрация</Button>
+          <Button onMyClick={() => console.log("podhod")}>подход</Button>
+          <Button onMyClick={myClick}>доступность</Button>
+          <Button onMyClick={handleClick}>концентрация</Button>
         </section>
       </main>
     </div>
